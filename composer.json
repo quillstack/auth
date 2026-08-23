@@ -1,0 +1,50 @@
+{
+    "name": "quillstack/auth",
+    "description": "Authentication for APIs: a route says what reaching it requires, and one place enforces it.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "auth",
+        "authentication",
+        "authorization",
+        "token",
+        "password",
+        "quillstack",
+        "php8"
+    ],
+    "homepage": "https://quillstack.org/auth",
+    "authors": [
+        {
+            "name": "Radek Ziemniewicz",
+            "email": "radek@quillstack.org"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "psr/http-message": "^1.0|^2.0",
+        "psr/http-server-handler": "^1.0",
+        "psr/http-server-middleware": "^1.0",
+        "quillstack/router": "^0.6.3"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0",
+        "quillstack/di": "^0.6",
+        "quillstack/unit-tests": "^0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quillstack\\Auth\\": "src/",
+            "Quillstack\\Auth\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "unit-tests",
+        "test:coverage": "phpdbg -qrr ./vendor/bin/unit-tests",
+        "stan": "phpstan analyse"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.6.x-dev"
+        }
+    }
+}
