@@ -12,7 +12,7 @@
         "quillstack",
         "php8"
     ],
-    "homepage": "https://quillstack.org/auth",
+    "homepage": "https://quillstack.org/packages/auth",
     "authors": [
         {
             "name": "Radek Ziemniewicz",
