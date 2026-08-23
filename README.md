@@ -1,5 +1,18 @@
 # Quillstack Auth
 
+[![Tests](https://github.com/quillstack/auth/actions/workflows/tests.yml/badge.svg)](https://github.com/quillstack/auth/actions/workflows/tests.yml)
+[![Latest Version](https://img.shields.io/packagist/v/quillstack/auth.svg)](https://packagist.org/packages/quillstack/auth)
+[![Downloads](https://img.shields.io/packagist/dt/quillstack/auth.svg)](https://packagist.org/packages/quillstack/auth)
+[![PHP Version](https://img.shields.io/packagist/php-v/quillstack/auth)](https://packagist.org/packages/quillstack/auth)
+[![StyleCI](https://github.styleci.io/repos/1343670965/shield?branch=main)](https://github.styleci.io/repos/1343670965?branch=main)
+[![CodeFactor](https://www.codefactor.io/repository/github/quillstack/auth/badge)](https://www.codefactor.io/repository/github/quillstack/auth)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=quillstack_auth&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=quillstack_auth)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=quillstack_auth&metric=coverage)](https://sonarcloud.io/summary/new_code?id=quillstack_auth)
+[![Maintainability](https://sonarcloud.io/api/project_badges/measure?project=quillstack_auth&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_auth)
+[![Reliability](https://sonarcloud.io/api/project_badges/measure?project=quillstack_auth&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_auth)
+[![Security](https://sonarcloud.io/api/project_badges/measure?project=quillstack_auth&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=quillstack_auth)
+[![License](https://img.shields.io/packagist/l/quillstack/auth)](https://github.com/quillstack/auth/blob/main/LICENSE)
+
 Authentication for APIs: a route says what reaching it requires, and one place enforces it.
 Full documentation: https://quillstack.org/auth
 
